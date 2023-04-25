@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Calculadora de IMC</h1>
+	<form action="Calculo.php" method="post">
+		<label for="peso">Peso (em kg):</label>
+		<input type="number" id="peso" name="peso" required><br>
+
+		<label for="altura">Altura (em metros):</label>
+		<input type="number" step="0.01" id="altura" name="altura" required><br>
+
+		<input type="submit" value="Calcular">
+	</form>
+</body>
+</html>
